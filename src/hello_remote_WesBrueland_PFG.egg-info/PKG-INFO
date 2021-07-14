@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: hello-remote-WesBrueland-PFG
+Version: 0.0.1
+Summary: A small example package for installing from Github
+Home-page: https://github.com/WesBrueland-PFG/git_pip_example.git
+Author: WesBrueland-PFG
+Author-email: brueland.wesley@principal.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/WesBrueland-PFG/git_pip_example.git
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# git_pip_example
+

@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+setup.cfg
+src/hello_remote/__init__.py
+src/hello_remote/hello_remote.py
+src/hello_remote_WesBrueland_PFG.egg-info/PKG-INFO
+src/hello_remote_WesBrueland_PFG.egg-info/SOURCES.txt
+src/hello_remote_WesBrueland_PFG.egg-info/dependency_links.txt
+src/hello_remote_WesBrueland_PFG.egg-info/top_level.txt
