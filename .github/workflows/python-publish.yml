@@ -33,13 +33,13 @@ jobs:
         pip install build
     - name: Build package
       run: python -m build
-    - name: check for changes
-      run: git status
-    - name: stage changed files
-      run: git add .
-    - name: commit changed files
-      run: git commit -m "Auto updating python library build files"
+    - name: Commit files
+      run: |
+        git config --local user.name "AutoUpdate"
+        git status
+        git add .
+        git commit -m "Auto updating python library build files"
     - name: fetch from main
-      run: git fetch origin main
-    - name: push code to main
-      run: git push origin HEAD:main
+      run: |
+        git fetch origin main
+        git push origin HEAD:main
